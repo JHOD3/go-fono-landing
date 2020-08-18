@@ -258,7 +258,13 @@ a[aria-expanded=true] h6 {
 .btn-font{
   font-size: 1rem;
 }
-
+.img-404 {
+  width: 18rem;
+}
+.center-content-error-404{
+  align-items: center;
+  display: grid;
+}
 @media (min-width:768px){
   .px-md-6 {
     padding-left: 7rem;
