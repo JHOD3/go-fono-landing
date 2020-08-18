@@ -1,0 +1,16 @@
+extends layouts/_index_layout
+
+block content
+  section#apply-header 
+    .d-md-flex.container
+      .col-md-6
+        img(src="img/aplicar.svg", alt="", srcset="").img-apply.mx-auto.d-block
+      .col-md-6.mt-md-0.mt-4
+        h4.text-md-left.text-center.text-primary Aplica lo que aprendiste en este <br class="d-md-block d-none">
+          | test sobre educación financiera
+        p.text-md-left.text-center  Si tu puntaje es bueno, vas a poder acceder a beneficios en nuestro <br class="d-md-block d-none">
+          | sitio. Además, vas a estar listo para tomar mejores decisiones en tus <br class="d-md-block d-none">
+          | finanzas.
+        button.btn.btn-primary.btn-rounded.mx-auto.ml-md-0.d-block.col-10.col-md-4.mt-5.mt-md-2 ¡Empezar!
+
+  include components/_top_footer_1

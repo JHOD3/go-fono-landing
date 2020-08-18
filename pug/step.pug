@@ -1,0 +1,28 @@
+extends layouts/_index_layout
+
+block content
+  section#apply-header 
+    .d-md-flex.container
+      .col-md-6
+        img(src="img/aplicar.svg", alt="", srcset="").img-apply.mx-auto.d-block
+      .col-md-6.mt-md-0.mt-4
+        h4.text-md-left.text-center.text-primary 1. ¿Cuáles son los préstamos que te <br class="d-md-block d-none">
+          | ofrecen tasas más bajas? 
+        div.mt-4 
+          .form-check
+            input#materialUnchecked-1.form-check-input(type='radio', name='materialExampleRadios')
+            label.form-check-label.pl-5(for='materialUnchecked-1') Hipotecarios, porque cuentan con el valor de tu casa <br class="d-md-block d-none">
+              | para respaldar el préstamo
+          .form-check.my-4
+            input#materialUnchecked-2.form-check-input(type='radio', name='materialExampleRadios')
+            label.form-check-label.pl-5(for='materialUnchecked-2') Prendarios, porque cuentan con el valor de tu vehículo <br class="d-md-block d-none">
+              | para respaldar el préstamo
+          .form-check
+            input#materialUnchecked-3.form-check-input(type='radio', name='materialExampleRadios')
+            label.form-check-label.pl-5(for='materialUnchecked-3') Personales, porque cuentan con el valor de tu palabra <br class="d-md-block d-none">
+              | para respaldar el crédito
+          .d-flex.mt-4.justify-content-center
+            button.btn.btn-outline-primary.btn-rounded.btn-lg.col-md-4.col-5 Anterior
+            button.btn.btn-primary.btn-rounded.btn-lg.col-md-4.col-5 Siguiente
+
+  include components/_top_footer_1

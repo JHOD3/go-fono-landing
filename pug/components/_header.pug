@@ -1,0 +1,54 @@
+header
+  #slide-out.side-nav.bg-white.custom-scrollbar
+    .d-flex.mt-2
+      a.mr-auto(href="index.html")
+        img(src="img/logo.svg", type="").logo
+      a.closedSidenav
+        i.fal.fa-times.ml-auto.text-dark.d-block.mr-3(style="width: 30px;font-size: 30px;justify-items: center;height: 8px;margin-top: 20px;")
+    .border-bottom.mt-3.mb-5.col-12.mx-auto
+    .col-12.mx-auto
+      a.d-flex.text-dark.align-items-center.mt-5(href="blog.html")
+        <i class="fal fa-angle-right mr-2"></i>
+        h5.item-sidebar Educación financiera 
+      a.d-flex.text-dark.align-items-center.my-3(href="faq.html") 
+        <i class="fal fa-angle-right mr-2"></i>
+        h5.item-sidebar Ayuda
+      a.d-flex.text-dark.align-items-center.my-3(href="contact.html") 
+        <i class="fal fa-angle-right mr-2"></i>
+        h5.item-sidebar Contacto
+      a.d-flex.text-dark.align-items-center.my-3(href="politics.html") 
+        <i class="fal fa-angle-right mr-2"></i>
+        h5.item-sidebar Políticas de privacidad
+    .border-bottom.my-5.col-9.mx-auto
+    button.btn.btn-outline-primary.btn-rounded.col-10.mx-auto.d-block Registrarme
+    button.btn.btn-primary.btn-rounded.col-10.mx-auto.d-block Login
+    //- p.text-danger.text-center Accedé a tu teléfono
+    //- .d-flex.justify-content-center.mt-5
+    //-   a(href="#")
+    //-     i.fab.fa-facebook-f.font40-px
+    //-   a(href="#")
+    //-     i.fab.fa-instagram.font40-px.mx-5
+    //-   a(href="#")
+    //-     i.fab.fa-twitter.font40-px
+  nav#change-color.navbar.fixed-top.navbar-toggleable-md.navbar-expand-lg.double-nav.bg-white
+    a.mr-auto(href="index.html")
+      img(src="img/logo.svg", type="").logo
+    ul.nav.navbar-nav.nav-flex-icons.ml-auto.d-md-flex.d-none
+      li.nav-item.align-items-center.d-flex.mr-5
+        a.nav-link(href="blog.html")
+         span.clearfix.d-none.d-sm-inline-block.font-weight-500 Educación financiera
+      li.nav-item.align-items-center.d-flex.mr-5
+        a.nav-link(href="faqs.html")
+         span.clearfix.d-none.d-sm-inline-block.font-weight-500 Ayuda
+      li.nav-item.align-items-center.d-flex.mr-5
+        a.nav-link(href="contact.html")
+         span.clearfix.d-none.d-sm-inline-block.font-weight-500 Contacto
+      li.nav-item
+        a.btn.btn-primary.btn-outline-primary.btn-rounded.px-4.text-white(href="#")
+          span.clearfix.d-none.d-sm-inline-block Registrarme
+      li.nav-item
+        a.btn.btn-primary.btn-rounded.px-4.text-white(href="#")
+          span.clearfix.d-none.d-sm-inline-block Login
+    .float-left.ml-auto.d-md-none.d-block
+      a#bar-menu.bar-menu-color.button-collapse.text-primary(href='#', data-activates='slide-out')
+        i.fa.fa-bars

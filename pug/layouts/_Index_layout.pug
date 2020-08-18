@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+html(lang="es")
+    include ../components/_head
+    body
+        include ../components/_header
+        block content
+        include ../components/_footer
+        block script
+        script(type = "text/javascript").
+            $(function() {
+              window.sr = ScrollReveal();
+
+              sr.reveal('.animar-card',{
+                delay: 500,
+                interval: 250,
+                rotate: { x: 100, y: 100, z: 0 },
+                reset: true,
+              });
+              sr.reveal('.top-footer',{
+                delay: 500,
+                interval: 250,
+                scale:1.5,
+                reset: true,
+              });
+              sr.reveal('.animar-title',{
+                  duration: 2000,
+                  origin: 'left',
+                  distance: '300px'
+              });
+              
+              sr.reveal('.animar-download', {
+                  duration: 2000,
+                  origin: 'bottom',
+                  distance: '100px',
+                  viewFactor: 0.4
+              });
+              
+            });
+
+            $(document).ready(function() {
+                $(".button-collapse").sideNav({
+                    edge: 'right',
+                    breakpoint: 768,
+                });
+                var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+                var ps = new PerfectScrollbar(sideNavScrollbar);
+                $('.closedSidenav').on('click',function(){
+                    $('.button-collapse').click();
+                });
+            });
+        

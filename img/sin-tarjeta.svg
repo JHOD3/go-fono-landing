@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144.051" height="149.607" viewBox="0 0 144.121 167.153">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 234 392">
+      <image width="234" height="392" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="Grupo_729" data-name="Grupo 729" transform="translate(-235.379 -782.198)">
+    <g id="Grupo_454" data-name="Grupo 454">
+      <g id="Grupo_407" data-name="Grupo 407" opacity="0.37">
+        <ellipse id="Elipse_145" data-name="Elipse 145" cx="18.005" cy="2.66" rx="18.005" ry="2.66" transform="translate(245.93 932.763)" fill="#cac7e1"/>
+        <ellipse id="Elipse_146" data-name="Elipse 146" cx="25.7" cy="4.016" rx="25.7" ry="4.016" transform="translate(317.566 932.356)" fill="#cac7e1"/>
+      </g>
+      <path id="Trazado_455" data-name="Trazado 455" d="M369.253,856.145c-.081-1.075-3.626-39.579-33.79-43.348-23.18-2.9-60.256,1.771-76.6,19.86s-21.806,39.828-20.073,55,11.57,25.171,29.407,20.748,31.769-17.25,43.917-21.765c11.022-4.1,33.969,5.247,44.94-3.476C364.14,877.526,370.279,869.8,369.253,856.145Z" fill="#00ecff"/>
+      <ellipse id="Elipse_147" data-name="Elipse 147" cx="3.073" cy="3.091" rx="3.073" ry="3.091" transform="translate(235.879 862.613)" fill="none" stroke="#00c98d" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Grupo_408" data-name="Grupo 408" opacity="0.19">
+        <rect id="Rectángulo_251" data-name="Rectángulo 251" width="99.2" height="167.153" transform="translate(258.089 782.198)" fill="url(#pattern)" style="isolation: isolate"/>
+      </g>
+      <g id="Grupo_409" data-name="Grupo 409">
+        <path id="Trazado_456" data-name="Trazado 456" d="M329.543,797.191h-47.62a9.679,9.679,0,0,0-9.65,9.7v15.786a1,1,0,0,0-.966,1v4.882a1,1,0,0,0,.966,1v1.429a1,1,0,0,0-.966,1v4.882a1,1,0,0,0,.966,1v85.785a9.745,9.745,0,0,0,.306,2.422v0a9.247,9.247,0,0,0,.648,1.778,9.665,9.665,0,0,0,.7,1.22c.174.26.36.507.555.746a9.79,9.79,0,0,0,1.67,1.6c.2.149.4.294.615.426.1.064.2.124.3.183.216.128.441.248.674.363a9.77,9.77,0,0,0,1.442.558c.118.035.241.069.36.1s.216.052.326.077a9.566,9.566,0,0,0,2.052.222h47.622a9.824,9.824,0,0,0,1.95-.2,9.486,9.486,0,0,0,.92-.239h0a9.343,9.343,0,0,0,1.31-.52h0q.42-.205.814-.448h0c.263-.167.521-.341.767-.525a10.2,10.2,0,0,0,1.047-.912,9.866,9.866,0,0,0,.911-1.058A9.6,9.6,0,0,0,338.6,927c.051-.149.1-.3.153-.456q.141-.456.237-.925a9.892,9.892,0,0,0,.2-1.957V806.892A9.675,9.675,0,0,0,329.543,797.191Z" fill="#fff"/>
+        <path id="Trazado_457" data-name="Trazado 457" d="M339.188,822.674v13.787a1.939,1.939,0,0,0,1.935-1.945h0v-9.9A1.941,1.941,0,0,0,339.188,822.674Z" fill="#fff"/>
+      </g>
+      <path id="Trazado_458" data-name="Trazado 458" d="M336.534,804.1a7.539,7.539,0,0,0-6.991-4.776H316.895a4.315,4.315,0,0,1-4.073,2.919H298.663a4.315,4.315,0,0,1-4.073-2.919H281.923a7.56,7.56,0,0,0-7.529,7.569V923.664a7.7,7.7,0,0,0,.237,1.894l.03.115a7.332,7.332,0,0,0,.479,1.275,7.749,7.749,0,0,0,.543.955c.127.188.267.375.428.571a7.853,7.853,0,0,0,1.306,1.258c.182.137.33.239.462.32l.046.03c.06.039.128.077.217.128.152.094.33.188.508.277a7.614,7.614,0,0,0,1.145.444c.17.051.348.094.526.132a7.471,7.471,0,0,0,1.6.171h47.619a8.019,8.019,0,0,0,1.53-.15c.229-.051.463-.11.713-.187l.1-.034a6.868,6.868,0,0,0,.911-.371l.123-.056c.178-.089.348-.187.513-.29l.081-.051c.2-.128.373-.247.517-.354a7.821,7.821,0,0,0,1.544-1.547,7.312,7.312,0,0,0,1.021-1.881l.14-.413a6.247,6.247,0,0,0,.178-.7,7.752,7.752,0,0,0,.153-1.535V806.892A7.561,7.561,0,0,0,336.534,804.1Z" fill="#32b1a5"/>
+      <ellipse id="Elipse_148" data-name="Elipse 148" cx="5.511" cy="5.543" rx="5.511" ry="5.543" transform="translate(251.54 908.599)" fill="#cac7e1"/>
+      <g id="Grupo_410" data-name="Grupo 410">
+        <path id="Rectángulo_252" data-name="Rectángulo 252" d="M.305,0H.968a.3.3,0,0,1,.3.3V6.517a.305.305,0,0,1-.305.305H.3a.3.3,0,0,1-.3-.3V.305A.305.305,0,0,1,.305,0Z" transform="translate(346.5 880.258)" fill="#00768d"/>
+        <path id="Rectángulo_253" data-name="Rectángulo 253" d="M.3,0H6.477a.305.305,0,0,1,.305.305v.67a.3.3,0,0,1-.3.3H.305A.305.305,0,0,1,0,.974V.3A.3.3,0,0,1,.3,0Z" transform="translate(343.957 883.243)" fill="#00768d"/>
+      </g>
+      <g id="Grupo_411" data-name="Grupo 411">
+        <path id="Rectángulo_254" data-name="Rectángulo 254" d="M.305,0H.966a.305.305,0,0,1,.305.305V6.517a.305.305,0,0,1-.305.305H.3a.3.3,0,0,1-.3-.3V.305A.305.305,0,0,1,.305,0Z" transform="translate(252.388 805.408)" fill="#00768d"/>
+        <path id="Rectángulo_255" data-name="Rectángulo 255" d="M.3,0H6.477a.305.305,0,0,1,.305.305V.974a.305.305,0,0,1-.305.305H.305A.305.305,0,0,1,0,.974V.3A.3.3,0,0,1,.3,0Z" transform="translate(249.844 808.393)" fill="#00768d"/>
+      </g>
+      <ellipse id="Elipse_149" data-name="Elipse 149" cx="1.06" cy="1.066" rx="1.06" ry="1.066" transform="translate(239.67 894.102)" fill="#00c98d"/>
+      <ellipse id="Elipse_150" data-name="Elipse 150" cx="1.06" cy="1.066" rx="1.06" ry="1.066" transform="translate(351.845 893.645)" fill="#00c98d"/>
+      <path id="Rectángulo_256" data-name="Rectángulo 256" d="M.3,0H32.763a.3.3,0,0,1,.3.3V.976a.3.3,0,0,1-.3.3H.305A.305.305,0,0,1,0,.974V.3A.3.3,0,0,1,.3,0Z" transform="translate(289.27 924.803)" fill="#fff"/>
+      <path id="Rectángulo_258" data-name="Rectángulo 258" d="M312.149,835.037H330.4a1.2,1.2,0,0,1,1.192,1.2v18.358a1.2,1.2,0,0,1-1.192,1.2H312.149a1.2,1.2,0,0,1-1.193-1.2V836.236A1.2,1.2,0,0,1,312.149,835.037Z" fill="#fff" opacity="0.18" style="isolation: isolate"/>
+      <path id="Rectángulo_343" data-name="Rectángulo 343" d="M284.414,835.037h18.251a1.2,1.2,0,0,1,1.193,1.2v18.358a1.2,1.2,0,0,1-1.193,1.2H284.414a1.2,1.2,0,0,1-1.192-1.2V836.236A1.2,1.2,0,0,1,284.414,835.037Z" fill="#fff" opacity="0.18" style="isolation: isolate"/>
+      <path id="Rectángulo_259" data-name="Rectángulo 259" d="M284.48,860.729h18.251a1.2,1.2,0,0,1,1.193,1.2v18.358a1.2,1.2,0,0,1-1.193,1.2H284.48a1.2,1.2,0,0,1-1.192-1.2V861.929A1.2,1.2,0,0,1,284.48,860.729Z" fill="#fff" opacity="0.18" style="isolation: isolate"/>
+      <path id="Rectángulo_260" data-name="Rectángulo 260" d="M312.149,860.729H330.4a1.2,1.2,0,0,1,1.192,1.2v18.358a1.2,1.2,0,0,1-1.192,1.2H312.149a1.2,1.2,0,0,1-1.193-1.2V861.929A1.2,1.2,0,0,1,312.149,860.729Z" fill="#fff" opacity="0.18" style="isolation: isolate"/>
+      <path id="Rectángulo_261" data-name="Rectángulo 261" d="M284.48,887.843h18.251a1.2,1.2,0,0,1,1.193,1.2V907.4a1.2,1.2,0,0,1-1.193,1.2H284.48a1.2,1.2,0,0,1-1.192-1.2V889.042A1.2,1.2,0,0,1,284.48,887.843Z" fill="#fff" opacity="0.18" style="isolation: isolate"/>
+      <path id="Rectángulo_262" data-name="Rectángulo 262" d="M312.149,887.843H330.4a1.2,1.2,0,0,1,1.192,1.2V907.4a1.2,1.2,0,0,1-1.192,1.2H312.149a1.2,1.2,0,0,1-1.193-1.2V889.042A1.2,1.2,0,0,1,312.149,887.843Z" fill="#fff" opacity="0.18" style="isolation: isolate"/>
+      <g id="Grupo_443" data-name="Grupo 443">
+        <g id="Grupo_421" data-name="Grupo 421">
+          <path id="Trazado_466" data-name="Trazado 466" d="M353.167,928H324.661v3.022c0,3.706,6.742,6.71,15.062,6.71s15.056-3,15.056-6.71V928Z" fill="#e59059"/>
+          <g id="Grupo_420" data-name="Grupo 420">
+            <path id="Trazado_467" data-name="Trazado 467" d="M354.785,927.993a.776.776,0,0,1-.005.118c-.135,3.653-6.83,6.592-15.057,6.592-8.32,0-15.062-3-15.062-6.71a3.062,3.062,0,0,1,.247-1.2c1.261-3.134,7.416-5.513,14.816-5.513s13.554,2.379,14.816,5.513a3.035,3.035,0,0,1,.24,1.079A.674.674,0,0,1,354.785,927.993Z" fill="#e4af00"/>
+            <g id="Grupo_415" data-name="Grupo 415">
+              <ellipse id="Elipse_151" data-name="Elipse 151" cx="12.249" cy="5.458" rx="12.249" ry="5.458" transform="translate(327.474 922.535)" fill="#e59059"/>
+            </g>
+            <g id="Grupo_419" data-name="Grupo 419">
+              <g id="Grupo_418" data-name="Grupo 418">
+                <g id="Grupo_417" data-name="Grupo 417">
+                  <g id="Grupo_416" data-name="Grupo 416">
+                    <path id="Trazado_468" data-name="Trazado 468" d="M341.109,930.024v1.146h-2.235v-1.153a15.769,15.769,0,0,1-4.236-.8l1.194-1.071a13.755,13.755,0,0,0,4.268.794c.908,0,1.479-.15,1.479-.428,0-.891-6.2-.352-6.2-2.209,0-.832,1.344-1.408,3.495-1.566v-1.1h2.236v1.094a16.834,16.834,0,0,1,3.68.562l-1.159,1.085a18.127,18.127,0,0,0-3.8-.561c-.739,0-1.226.12-1.226.359,0,.869,6.2.375,6.2,2.262C344.807,929.357,343.227,929.9,341.109,930.024Z" fill="#e4af00"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Grupo_428" data-name="Grupo 428">
+          <path id="Trazado_469" data-name="Trazado 469" d="M358.45,924.573H329.945v3.022c0,3.706,6.742,6.711,15.062,6.711s15.057-3.005,15.057-6.711v-3.022Z" fill="#e59059"/>
+          <g id="Grupo_427" data-name="Grupo 427">
+            <path id="Trazado_470" data-name="Trazado 470" d="M360.069,924.57a.782.782,0,0,1-.006.118c-.135,3.653-6.83,6.592-15.056,6.592-8.321,0-15.062-3-15.062-6.71a3.088,3.088,0,0,1,.246-1.2c1.262-3.133,7.417-5.512,14.817-5.512s13.554,2.379,14.816,5.512a3.04,3.04,0,0,1,.24,1.08A.783.783,0,0,1,360.069,924.57Z" fill="#e4af00"/>
+            <g id="Grupo_422" data-name="Grupo 422">
+              <ellipse id="Elipse_152" data-name="Elipse 152" cx="12.249" cy="5.458" rx="12.249" ry="5.458" transform="translate(332.758 919.112)" fill="#e59059"/>
+            </g>
+            <g id="Grupo_426" data-name="Grupo 426">
+              <g id="Grupo_425" data-name="Grupo 425">
+                <g id="Grupo_424" data-name="Grupo 424">
+                  <g id="Grupo_423" data-name="Grupo 423">
+                    <path id="Trazado_471" data-name="Trazado 471" d="M346.393,926.6v1.146h-2.237v-1.153a15.767,15.767,0,0,1-4.235-.8l1.193-1.071a13.74,13.74,0,0,0,4.27.795c.907,0,1.479-.151,1.479-.428,0-.891-6.2-.352-6.2-2.21,0-.831,1.344-1.408,3.495-1.565v-1.1h2.236v1.094a16.832,16.832,0,0,1,3.68.561l-1.158,1.087a18.071,18.071,0,0,0-3.8-.562c-.739,0-1.226.12-1.226.36,0,.869,6.2.375,6.2,2.262C350.091,925.934,348.51,926.474,346.393,926.6Z" fill="#e4af00"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Grupo_435" data-name="Grupo 435">
+          <path id="Trazado_472" data-name="Trazado 472" d="M350.974,917.6H322.468v3.021c0,3.706,6.742,6.711,15.062,6.711s15.057-3,15.057-6.711V917.6Z" fill="#e59059"/>
+          <g id="Grupo_434" data-name="Grupo 434">
+            <path id="Trazado_473" data-name="Trazado 473" d="M352.592,917.6a.928.928,0,0,1-.005.118c-.136,3.654-6.831,6.593-15.057,6.593-8.32,0-15.062-3-15.062-6.711a3.058,3.058,0,0,1,.247-1.2c1.262-3.135,7.417-5.513,14.816-5.513s13.554,2.379,14.816,5.513a3.052,3.052,0,0,1,.241,1.079A.935.935,0,0,1,352.592,917.6Z" fill="#e4af00"/>
+            <g id="Grupo_429" data-name="Grupo 429">
+              <ellipse id="Elipse_153" data-name="Elipse 153" cx="12.249" cy="5.458" rx="12.249" ry="5.458" transform="translate(325.281 912.142)" fill="#e59059"/>
+            </g>
+            <g id="Grupo_433" data-name="Grupo 433">
+              <g id="Grupo_432" data-name="Grupo 432">
+                <g id="Grupo_431" data-name="Grupo 431">
+                  <g id="Grupo_430" data-name="Grupo 430">
+                    <path id="Trazado_474" data-name="Trazado 474" d="M338.916,919.631v1.146h-2.235v-1.153a15.769,15.769,0,0,1-4.236-.8l1.194-1.071a13.756,13.756,0,0,0,4.269.794c.907,0,1.479-.15,1.479-.427,0-.891-6.2-.352-6.2-2.21,0-.831,1.344-1.408,3.5-1.565v-1.1h2.235v1.093a16.914,16.914,0,0,1,3.681.562l-1.16,1.086a18,18,0,0,0-3.8-.561c-.74,0-1.227.119-1.227.359,0,.869,6.2.374,6.2,2.262C342.614,918.964,341.034,919.5,338.916,919.631Z" fill="#e4af00"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Grupo_442" data-name="Grupo 442">
+          <path id="Trazado_475" data-name="Trazado 475" d="M361.264,911.044H332.759v3.022c0,3.706,6.741,6.711,15.061,6.711s15.057-3.005,15.057-6.711v-3.022Z" fill="#e59059"/>
+          <g id="Grupo_441" data-name="Grupo 441">
+            <path id="Trazado_476" data-name="Trazado 476" d="M362.883,911.041a.773.773,0,0,1-.006.118c-.135,3.654-6.83,6.593-15.057,6.593-8.32,0-15.062-3-15.062-6.711a3.065,3.065,0,0,1,.247-1.2c1.261-3.134,7.417-5.512,14.816-5.512s13.554,2.378,14.816,5.512a3.038,3.038,0,0,1,.24,1.079A.793.793,0,0,1,362.883,911.041Z" fill="#e4af00"/>
+            <g id="Grupo_436" data-name="Grupo 436">
+              <ellipse id="Elipse_154" data-name="Elipse 154" cx="12.249" cy="5.458" rx="12.249" ry="5.458" transform="translate(335.571 905.584)" fill="#e59059"/>
+            </g>
+            <g id="Grupo_440" data-name="Grupo 440">
+              <g id="Grupo_439" data-name="Grupo 439">
+                <g id="Grupo_438" data-name="Grupo 438">
+                  <g id="Grupo_437" data-name="Grupo 437">
+                    <path id="Trazado_477" data-name="Trazado 477" d="M349.207,913.073v1.145h-2.236v-1.153a15.711,15.711,0,0,1-4.235-.8l1.193-1.071a13.756,13.756,0,0,0,4.269.794c.908,0,1.48-.15,1.48-.427,0-.892-6.2-.353-6.2-2.21,0-.832,1.344-1.408,3.495-1.565v-1.1h2.236v1.093a16.846,16.846,0,0,1,3.68.562l-1.159,1.086a18.065,18.065,0,0,0-3.8-.562c-.739,0-1.226.12-1.226.359,0,.869,6.2.375,6.2,2.262C352.9,912.406,351.324,912.945,349.207,913.073Z" fill="#e4af00"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_449" data-name="Grupo 449">
+        <ellipse id="Elipse_155" data-name="Elipse 155" cx="15.082" cy="15.17" rx="15.082" ry="15.17" transform="translate(248.951 903.917)" fill="#e4af00"/>
+        <g id="Grupo_444" data-name="Grupo 444">
+          <ellipse id="Elipse_156" data-name="Elipse 156" cx="12.266" cy="12.338" rx="12.266" ry="12.338" transform="translate(251.767 906.749)" fill="#e59059"/>
+        </g>
+        <g id="Grupo_448" data-name="Grupo 448">
+          <g id="Grupo_447" data-name="Grupo 447">
+            <g id="Grupo_446" data-name="Grupo 446">
+              <g id="Grupo_445" data-name="Grupo 445">
+                <path id="Trazado_478" data-name="Trazado 478" d="M267.824,923.833l1.11,2.337-2.021.97-1.116-2.352a8.657,8.657,0,0,1-4.6.2l.041-2.7a7.5,7.5,0,0,0,4.627-.233c.82-.394,1.192-.948.923-1.513-.862-1.818-5.945,1.973-7.744-1.815-.805-1.7-.148-3.455,1.644-4.71l-1.067-2.246,2.021-.97,1.059,2.23a8.641,8.641,0,0,1,3.869-.451l0,2.718a9.123,9.123,0,0,0-3.976.5c-.668.321-.992.776-.761,1.266.842,1.771,5.967-1.929,7.794,1.921C270.52,920.868,269.614,922.654,267.824,923.833Z" fill="#e4af00"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_453" data-name="Grupo 453">
+        <g id="Grupo_452" data-name="Grupo 452">
+          <g id="Grupo_451" data-name="Grupo 451">
+            <path id="Rectángulo_264" data-name="Rectángulo 264" d="M321.563,806.666H377.38a1.624,1.624,0,0,1,1.62,1.629v39.863a1.624,1.624,0,0,1-1.62,1.629H321.563a1.624,1.624,0,0,1-1.619-1.629V808.295A1.624,1.624,0,0,1,321.563,806.666Z" fill="#fff" stroke="#dadada" stroke-miterlimit="10" stroke-width="1"/>
+            <g id="Grupo_450" data-name="Grupo 450">
+              <path id="Trazado_479" data-name="Trazado 479" d="M333.222,829.57v2.858h-2.47v-2.877a9.577,9.577,0,0,1-4.681-2l1.319-2.671a8.282,8.282,0,0,0,4.717,1.98c1,0,1.635-.374,1.635-1.065,0-2.223-6.853-.878-6.853-5.51,0-2.074,1.486-3.512,3.863-3.9v-2.747h2.469v2.729a9.576,9.576,0,0,1,4.068,1.4l-1.282,2.708a10.073,10.073,0,0,0-4.2-1.4c-.817,0-1.356.3-1.356.9,0,2.166,6.853.933,6.853,5.64C337.307,827.907,335.562,829.252,333.222,829.57Z" fill="#00c98d"/>
+              <path id="Rectángulo_265" data-name="Rectángulo 265" d="M342.816,813.635h28.639a1.422,1.422,0,0,1,1.417,1.426v.161a1.422,1.422,0,0,1-1.417,1.426H342.816a1.422,1.422,0,0,1-1.417-1.426v-.161A1.422,1.422,0,0,1,342.816,813.635Z" fill="#00868d"/>
+              <path id="Rectángulo_266" data-name="Rectángulo 266" d="M342.816,818.917h28.639a1.422,1.422,0,0,1,1.417,1.426v.161a1.421,1.421,0,0,1-1.417,1.425H342.816A1.421,1.421,0,0,1,341.4,820.5v-.161A1.421,1.421,0,0,1,342.816,818.917Z" fill="#00868d"/>
+              <path id="Rectángulo_267" data-name="Rectángulo 267" d="M342.816,824.2h28.639a1.421,1.421,0,0,1,1.417,1.425v.161a1.422,1.422,0,0,1-1.417,1.426H342.816a1.421,1.421,0,0,1-1.417-1.426v-.161A1.421,1.421,0,0,1,342.816,824.2Z" fill="#00868d"/>
+              <path id="Rectángulo_268" data-name="Rectángulo 268" d="M342.816,829.481H356.46a1.421,1.421,0,0,1,1.417,1.425v.161a1.421,1.421,0,0,1-1.417,1.426H342.816a1.421,1.421,0,0,1-1.417-1.426v-.161A1.421,1.421,0,0,1,342.816,829.481Z" fill="#00868d"/>
+              <path id="Trazado_480" data-name="Trazado 480" d="M331.516,840.079a2.723,2.723,0,1,1-2.723-2.737h0A2.729,2.729,0,0,1,331.516,840.079Z" fill="#e57658"/>
+              <path id="Trazado_481" data-name="Trazado 481" d="M340.762,840.079a2.723,2.723,0,1,1-2.723-2.737h0A2.729,2.729,0,0,1,340.762,840.079Z" fill="#e57658"/>
+              <path id="Trazado_482" data-name="Trazado 482" d="M350.008,840.079a2.723,2.723,0,1,1-2.723-2.737h0A2.729,2.729,0,0,1,350.008,840.079Z" fill="#e57658"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
