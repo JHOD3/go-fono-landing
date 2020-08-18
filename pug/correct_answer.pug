@@ -4,11 +4,39 @@ block content
   section#apply-header 
     .d-md-flex.container
       .col-md-6
-        img(src="img/70-porciento.svg", alt="", srcset="").img-apply.mx-auto.d-block
+        object(data="img/70-porciento.svg", type="image/svg+xml").img-apply.mx-auto.d-block#contar
       .col-md-6.mt-md-0.mt-5
         h4.text-md-left.text-center.text-primary ¡Felicitaciones! <br class="d-md-block d-none">
-          | Tuviste 75% de respuestas correctas
+          | Tuviste <span id="b">75%</span> de respuestas correctas
         p.text-md-left.text-center  Tenés una buena base para tomar mejores <br class="d-md-block d-none">
           |  decisiones sobre tus finanzas personales
         button.btn.btn-primary.btn-rounded.mx-auto.ml-md-0.d-block.col-10.col-md-4.mt-5.mt-md-2 ¡Terminar!
   include components/_top_footer_1
+block script
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js")
+  script(type = "text/javascript").
+    
+    $(function() {
+      count();
+    });
+
+    function count(){
+      var counter = { var: 0 };
+      TweenMax.to(counter, 3, {
+        var: 75, 
+        onUpdate: function () {
+          var number = Math.ceil(counter.var);
+          var a = document.getElementById("contar");
+          var b = document.getElementById("b");
+          var svgFile = a.contentDocument;
+          var delta = svgFile.getElementById("agregar-contador");
+          b.textContent = number+"%";
+          delta.textContent = number+"%";   
+          if(number === counter.var){ count.kill(); }
+        },
+        onComplete: function(){
+          count();
+        },    
+        ease:Circ.easeOut
+      });
+    }   

@@ -1,4 +1,6 @@
 // Your custom styles
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
 // Img slider home desktop
   $img-slider-1 : url(../img/slider-1.png);
   $img-slider-2 : url(../img/slider-2.png);
@@ -33,10 +35,27 @@
 
 
 body{
-    color: #666666;
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #fff;
+  color: #666666;
+  font-weight: normal;
 }
 p{
-    color: #666666;
+  font-family: 'Montserrat', sans-serif !important;
+  color: #666666;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #d0cfcf;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #00c98d;
+  border-top-left-radius: 20px;
 }
 .navbar {
     padding: .5rem 5rem;
@@ -92,7 +111,9 @@ p{
   width: 100%;
   margin-bottom: 13rem;
 }
-
+#te-contamos-blog {
+  padding-top: 3rem;
+}
 #img-background-notas{
   background-image: $img-background-notas;
   background-size: cover;
@@ -128,13 +149,14 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#footer-over{
+  box-shadow: 0px 44px 0px 92px #ffffff;
+}
 #fond-blog{
-  background-image: $img-background-te-contamos;
-  height: 67rem;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 22rem;
+  background: $img-background-te-contamos;
+  background-size: contain;
+  background-repeat-y: repeat;
+  background-position: center 35rem;
 }
 .border-card-img {
   border-radius: 10px 10px 0 0;
@@ -221,6 +243,21 @@ a[aria-expanded=true] h6 {
   color: #00c98d;
 }
 
+.btn-download {
+  width: 7rem;
+}
+.font-2-5rem{
+  font-size: 2.5rem;
+}
+.bg-faqs{
+  background: #eeeeee;
+  box-shadow: 1px 100px 0px 100px #eeeeee;
+}
+
+
+.btn-font{
+  font-size: 1rem;
+}
 
 @media (min-width:768px){
   .px-md-6 {
@@ -240,6 +277,13 @@ a[aria-expanded=true] h6 {
 }
 /* Col-md */
 @media (max-width:768px){
+    #educacion-blog{
+      background: white;
+      box-shadow: 0px 20px 0 362px #ffffff;
+    }
+    #top-footer-blog{
+      box-shadow: 0px -20px 0 100px white;
+    }
     .img-nota {
         width: 100%;
     }
@@ -308,11 +352,9 @@ a[aria-expanded=true] h6 {
     }
     #fond-blog{
       background-image: $img-background-te-contamos-m;
-      height: 115rem;
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin-bottom: 80rem;
+      background-size: contain;
+      background-repeat-y: repeat;
+      background-position: center 42rem;
     }
     #img-home-slider-1{
       background-image: $img-slider-1-m;
@@ -348,6 +390,8 @@ a[aria-expanded=true] h6 {
     }
     .font-title{
       font-size: 2rem;
+      font-weight: 500;
+      line-height: 3rem;
     }
     .btn-download {
         width: 24vw;
@@ -363,6 +407,28 @@ a[aria-expanded=true] h6 {
   .title-contact {
       margin-top: 7rem;
   }
+  .font-1-5rem {
+    font-size: 1.5rem !important;
+  }
+  .btn-footer {
+    padding: .5rem 1.5rem!important;
+  }
+  body {
+    font-size: 0.7rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  #fond-te-contamos {
+    height: 108rem;
+  }
+  .font20-px {
+    font-size: 1rem;
+  }
+  .text-left-top-footer {
+    right: 0;
+    margin-top: 2vh;
+  }
 }
 @media (max-width:330px){
   #fondo-top-footer {
@@ -372,7 +438,8 @@ a[aria-expanded=true] h6 {
     font-size: 1.3rem;
   }
   .font-title {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
   }
   .bg-title-corte {
     clip-path: polygon(2% 0%,100% 0%,99% 100%,0% 100%);
@@ -380,5 +447,20 @@ a[aria-expanded=true] h6 {
   }
   .btn-download {
     width: 23vw;
+  }
+  .d-none-320{
+    display: none !important;
+  }
+  .d-none-320{
+    display: block !important;
+  }
+  .col-12-320 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  
+  .font-1-5rem {
+    font-size: 1.5rem !important;
   }
 }

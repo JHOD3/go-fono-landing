@@ -4,7 +4,7 @@ block content
   section#apply-header 
     .d-md-flex.container
       .col-md-6
-        img(src="img/20-porciento.svg", alt="", srcset="").img-apply.mx-auto.d-block
+        object(data="img/20-porciento.svg", type="image/svg+xml").img-apply.mx-auto.d-block#contar
       .col-md-6.mt-md-0.mt-5
         h4.text-md-left.text-center.text-primary ¡Cuidado!
         p.text-md-left.text-center  Te recomendamos seguir trabajando en tu educación financiera <br class="d-md-block d-none">
@@ -14,3 +14,29 @@ block content
           |  decisiones sobre tus finanzas personales <br class="d-md-block d-none">
         button.btn.btn-primary.btn-rounded.mx-auto.ml-md-0.d-block.col-10.col-md-4.mt-5.mt-md-2 Terminar
   include components/_top_footer_1
+block script
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js")
+  script(type = "text/javascript").
+    
+    $(function() {
+      count();
+    });
+
+    function count(){
+      var counter = { var: 0 };
+      TweenMax.to(counter, 3, {
+        var: 20, 
+        onUpdate: function () {
+          var number = Math.ceil(counter.var);
+          var a = document.getElementById("contar");
+          var svgFile = a.contentDocument;
+          var delta = svgFile.getElementById("agregar-contador");
+          delta.textContent = number+"%";   
+          if(number === counter.var){ count.kill(); }
+        },
+        onComplete: function(){
+          count();
+        },    
+        ease:Circ.easeOut
+      });
+    }   

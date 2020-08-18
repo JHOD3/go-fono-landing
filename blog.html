@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/Gofono.css"/>
   </head>
-  <body>
+  <body id="fond-blog">
     <header>
       <div class="side-nav bg-white custom-scrollbar" id="slide-out">
         <div class="d-flex mt-2"><a class="mr-auto" href="index.html"><img class="logo" src="img/logo.svg" type=""/></a><a class="closedSidenav"><i class="fal fa-times ml-auto text-dark d-block mr-3" style="width: 30px;font-size: 30px;justify-items: center;height: 8px;margin-top: 20px;"></i></a></div>
@@ -37,7 +37,7 @@
         <div class="float-left ml-auto d-md-none d-block"><a class="bar-menu-color button-collapse text-primary" id="bar-menu" href="#" data-activates="slide-out"><i class="fa fa-bars"></i></a></div>
       </nav>
     </header>
-    <section> 
+    <section id="educacion-blog"> 
       <div class="position-absolute center-absolute">
         <div class="title-contact text-center mx-auto col-12">
           <h1 class="text-white">Educación financiera</h1>
@@ -45,7 +45,7 @@
              Creamos un blog con toda la informacion necesaria para que puedas asesorarte acerca de como podes <br class="d-md-block d-none"> mejorar tu acceso al credito y obtener mejor financiamiento.</p>
           <div class="raya bg-white col-1 mx-auto mt-4"></div>
         </div>
-        <div class="d-md-flex justify-content-center my-5 pt-5"> <img class="rounded mr-md-5 img-top-blog" src="img/imagen-4.png" alt="" srcset=""/>
+        <div class="d-md-flex justify-content-center my-5 pt-5 mt-md-0"> <img class="rounded mr-md-5 img-top-blog" src="img/imagen-4.png" alt="" srcset=""/>
           <div class="pt-md-5 mt-5 px-md-0 px-5">
             <h5 class="text-primary">Lorem ipsum dolor sit amet, sed diam nonummy.</h5>
             <p>
@@ -56,8 +56,8 @@
       </div>
       <div id="img-background-blog"></div>
     </section>
-    <section id="te-contamos">
-      <div class="position-absolute mx-auto center-absolute col-md-9 mt-md-5">
+    <section id="te-contamos-blog">
+      <div class="mx-auto center-absolute col-md-9 mt-md-5">
         <div class="d-md-flex d-block mt-5 pt-3 pb-5">
           <div class="px-3 col-md-4 mt-md-0 mt-4 animar-card">
             <div class="card border-only border-0"><img class="img-border border-card-img" src="img/imagen-1.png" alt="" srcset=""/>
@@ -128,25 +128,25 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-primary btn-outline-primary btn-rounded mx-auto d-block mt-5 btn-lg">Cargar mas notas</button>
+        <div class="mas"></div>
+        <button class="btn btn-primary btn-outline-primary btn-rounded mx-auto d-block mt-5 btn-lg cargar-mas">Cargar mas notas</button>
       </div>
-      <div id="fond-blog"></div>
     </section>
-    <section class="top-footer" id="top-footer">
-      <div class="col-md-6 ml-auto position-absolute text-left-top-footer">
-        <h2 class="text-md-left text-center text-white title-h2">
+    <section id="top-footer-blog">
+      <div class="col-md-7 ml-auto position-absolute text-left-top-footer">
+        <h2 class="text-md-left text-center text-white title-h2 font-2-5rem">
           Queremos que todos tenga <br>el celular que desean <br>
-          GoFono
+          <span class="font-weight-500"> GoFono! </span>
         </h2>
       </div>
       <div id="fondo-top-footer"></div>
     </section>
-    <section id="footer-over">
+    <section class="bg-white" id="footer-over">
       <div class="d-md-flex d-block px-md-5 my-5">
-        <div class="col-md-6">
-          <div class="d-flex">
-            <h2 class="text-primary mr-4">¿Preguntas?</h2>
-            <button class="btn btn-primary btn-outline-primary btn-rounded col-4">Contacto</button>
+        <div class="col-md-7">
+          <div class="d-flex d-none-320 align-items-center">
+            <h2 class="text-primary mr-4 font-1-5rem">¿Preguntas?</h2>
+            <button class="btn btn-primary btn-outline-primary btn-rounded col-4 col-12-320 btn-footer">Contacto</button>
           </div>
           <div class="d-flex mt-3">
             <ul class="col-md-5 no-style-li px-0 px-md-4">
@@ -161,7 +161,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 mt-5 justify-content-end">
+        <div class="col-md-5 mt-5 justify-content-end">
           <p>Disponible en</p>
           <div class="mt-3"><a class="animar" href="#" target="_blank" rel="noopener noreferrer"><img class="btn-download" src="img/download-AppStore.svg" alt=""/></a><a class="mx-3 animar" href="#" target="_blank" rel="noopener noreferrer"><img class="btn-download" src="img/download-GooglePlay.svg" alt=""/></a><a class="animar" href="#" target="_blank" rel="noopener noreferrer"><img class="btn-download" src="img/web-browser.svg" alt=""/></a></div>
           <div class="d-flex mt-5 align-items-center"> 
@@ -184,20 +184,65 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script type="text/javascript">
       $(function() {
+        $('.cargar-mas').on('click', function(){
+          //Usar un ajax para llamar mas post e intrudicir este codigo en el success para cargar mas notas 
+            $(".mas").append(function(n){
+              // Respuesta json
+              let JsonData ={
+                "0":{
+                    "date": "Julio, 2020",
+                    "img" : 'img/imagen-1.png',
+                    "title": "Lsed diam nonummy nibh euismod <br> tincidunt dolore magna erat <br> volutpat.",
+                },
+                "1":{
+                  "date": "Julio, 2020",
+                  "img" : 'img/imagen-2.png',
+                  "title": "Lsed diam nonummy nibh euismod <br> tincidunt dolore magna erat <br> volutpat.",
+                },
+                "2":{
+                  "date": "Julio, 2020",
+                  "img" : 'img/imagen-3.png',
+                  "title": "Lsed diam nonummy nibh euismod <br> tincidunt dolore magna erat <br> volutpat.",
+                }  
+              };
+              let contenedor_init = '<div class="d-md-flex d-block mt-5 pt-3 pb-5">' ;
+              let contenedor_end = '<div>'
+              let contenido = '' ;
+              $.each(JsonData,function(index, value){
+                  contenido += '<div class="px-3 col-md-4 mt-md-0 mt-4 animar-card" >'+
+                                  '<div class="card border-only border-0"><img class="img-border border-card-img" src="'+ value.img +'" alt="" srcset=""/>'+
+                                    '<div class="px-4 mt-3"><small>'+ value.date +'</small>'+
+                                      '<p class="mt-3">'+ value.title +'</p>'+
+                                      '<button class="btn btn-primary btn-rounded my-4">Leer mas</button>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>';
+              });
+            //- console.log(contenido);
+              let html = contenedor_init + contenido + contenedor_end;
+              if(contenido != ''){
+                  $('.mas').append(html);
+              }
+              
+            });
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(function() {
         window.sr = ScrollReveal();
       
         sr.reveal('.animar-card',{
           delay: 500,
           interval: 250,
           rotate: { x: 100, y: 100, z: 0 },
-          reset: true,
         });
-        sr.reveal('.top-footer',{
-          delay: 500,
-          interval: 250,
-          scale:1.5,
-          reset: true,
-        });
+        //- sr.reveal('.top-footer',{
+        //-   delay: 500,
+        //-   interval: 250,
+        //-   scale:1.5,
+        //-   reset: true,
+        //- });
         sr.reveal('.animar-title',{
             duration: 2000,
             origin: 'left',
