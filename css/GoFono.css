@@ -19649,6 +19649,13 @@ p {
   background-size: cover;
 }
 
+#img-home-slider-3 {
+  background-image: url(../img/slider-3.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
 #img-background-phone {
   background-image: url(../img/background-section-phone.svg);
   background-size: cover;
@@ -19985,6 +19992,13 @@ a[aria-expanded=true] h6 {
 
   #img-home-slider-2 {
     background-image: url(../img/slider-2-m.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  #img-home-slider-3 {
+    background-image: url(../img/slider-3-m.png);
     height: 100vh;
     width: 100vw;
     background-size: cover;

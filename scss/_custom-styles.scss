@@ -4,10 +4,12 @@
 // Img slider home desktop
   $img-slider-1 : url(../img/slider-1.png);
   $img-slider-2 : url(../img/slider-2.png);
+  $img-slider-3 : url(../img/slider-3.png);
 
 // Img slider home Movil
   $img-slider-1-m : url(../img/slider-1-m.png);
   $img-slider-2-m : url(../img/slider-2-m.png);
+  $img-slider-3-m : url(../img/slider-3-m.png);
 // background section-phone desktop
   $img-background-phone : url(../img/background-section-phone.svg);
 // background section-phone movil
@@ -87,6 +89,12 @@ p{
 }
 #img-home-slider-2{
   background-image: $img-slider-2;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+#img-home-slider-3{
+  background-image: $img-slider-3;
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -381,6 +389,12 @@ a[aria-expanded=true] h6 {
     }
     #img-home-slider-2{
       background-image: $img-slider-2-m;
+      height: 100vh;
+      width: 100vw;
+      background-size: cover;
+    }
+    #img-home-slider-3{
+      background-image: $img-slider-3-m;
       height: 100vh;
       width: 100vw;
       background-size: cover;
