@@ -263,7 +263,16 @@ a[aria-expanded=true] h6 {
   box-shadow: 1px 100px 0px 100px #eeeeee;
 }
 
-
+.owl-carousel .animated {
+  animation-duration: 1s !important;
+  animation-fill-mode: both !important;
+}
+.owl-carousel .fadeOut {
+  animation-name: fadeOut !important;
+}
+.fadeIn {
+  animation-name: fadeIn !important;
+}
 .btn-font{
   font-size: 1rem;
 }
