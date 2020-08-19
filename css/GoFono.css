@@ -20120,7 +20120,7 @@ a[aria-expanded=true] h6 {
     height: 8vh;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 360px) {
   #fondo-top-footer {
     height: 20rem;
   }
@@ -20141,15 +20141,17 @@ a[aria-expanded=true] h6 {
   }
 
   .btn-download {
-    width: 23vw;
+    height: 4vh;
+    width: 25vw;
   }
 
   .d-none-320 {
     display: none !important;
   }
 
-  .d-none-320 {
-    display: block !important;
+  .title-content {
+    margin-top: 7rem;
+    padding: 0 2rem;
   }
 
   .col-12-320 {
@@ -20157,7 +20159,37 @@ a[aria-expanded=true] h6 {
     max-width: 100%;
   }
 
+  #img-background-phone {
+    height: 132vh;
+  }
+
   .font-1-5rem {
     font-size: 1.5rem !important;
+  }
+}
+@media (max-width: 321px) {
+  .title-content {
+    margin-top: 6rem;
+    padding: 0 2rem;
+  }
+
+  body {
+    font-size: 0.6rem;
+  }
+
+  .font20-px {
+    font-size: 0.6rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .title-h2 {
+    font-size: 1.25rem;
+  }
+
+  #fond-te-contamos {
+    height: 114rem;
   }
 }
