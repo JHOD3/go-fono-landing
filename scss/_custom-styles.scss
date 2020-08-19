@@ -58,7 +58,8 @@ p{
   border-top-left-radius: 20px;
 }
 .navbar {
-    padding: .5rem 5rem;
+  padding: 0.5rem 5rem;
+  border-bottom: 1px solid #F4F4F4;
 }
 .font-title{
     font-size: 53px;
@@ -94,7 +95,7 @@ p{
 #img-background-phone{
   background-image: $img-background-phone;
   background-size: cover;
-  height: 140vh;
+  height: 130vh;
   width: 100%;
 }
 
@@ -244,7 +245,7 @@ a[aria-expanded=true] h6 {
 }
 
 .btn-download {
-  width: 7rem;
+  width: 9rem;
 }
 .font-2-5rem{
   font-size: 2.5rem;
@@ -271,15 +272,24 @@ a[aria-expanded=true] h6 {
     padding-right: 7rem;
   }
 }
+@media (max-width:1600px){
+  #img-background-phone {
+    height: 130vh;
+  }
+}
 
 
 /* Col-xl */
-@media (min-width:1200px){
-
+@media (max-width:1200px){
+  #img-background-phone {
+    height: 140vh;
+  }
 }
 //  Col-lg
 @media (max-width:992px){
-
+  #img-background-phone {
+    height: 160vh;
+  }
 }
 /* Col-md */
 @media (max-width:768px){
@@ -346,7 +356,7 @@ a[aria-expanded=true] h6 {
     #img-background-phone{
       background-image: $img-background-phone-m;
       background-size: cover;
-      height: 150vh;
+      height: 65rem;
       width: 100%;
     }
     #fond-te-contamos{
@@ -382,10 +392,12 @@ a[aria-expanded=true] h6 {
     }
     .navbar {
         padding: .5rem 1rem;
+        border-bottom:none;
     }
     .logo {
-        width: 40px;
-    } 
+        width: 46px;
+        margin: 7px 0;
+    }
     .bg-title-corte {
       clip-path: polygon(2% 0%,100% 0%,98% 100%,0% 100%);
       padding: 0px 21px 0 10px;
@@ -394,13 +406,14 @@ a[aria-expanded=true] h6 {
       margin-top: 8rem;
       padding: 0 2rem;
     }
-    .font-title{
-      font-size: 2rem;
-      font-weight: 500;
-      line-height: 3rem;
-    }
+    .font-title {
+      font-size: 2.15rem;
+      font-weight: 600;
+      line-height: 2.5rem;
+    } 
     .btn-download {
-        width: 24vw;
+      width: 25vw;
+      height: 12vh;
     }
    
       
@@ -423,7 +436,10 @@ a[aria-expanded=true] h6 {
     font-size: 0.7rem;
   }
   p {
-    font-size: 0.8rem;
+      font-size: 1rem;
+  }
+  .d-none-320{
+    display: none;
   }
   #fond-te-contamos {
     height: 108rem;
@@ -434,6 +450,23 @@ a[aria-expanded=true] h6 {
   .text-left-top-footer {
     right: 0;
     margin-top: 2vh;
+  }
+}
+@media (max-width:390px){
+    #img-background-phone {
+      height: 110vh;
+  }
+  #fond-te-contamos {
+      height: 120rem;
+  }
+  .font-title {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 2.5rem;
+  }
+  .btn-download {
+    width: 26vw;
+    height: 8vh;
   }
 }
 @media (max-width:330px){
