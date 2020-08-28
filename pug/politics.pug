@@ -1,12 +1,13 @@
 extends layouts/_index_layout
 
 block content
-  section#terms-header 
-    div.text-center.container
-      h2.text-primary Política de privacidad
-      p Creamos un blog con toda la informacion necesaria para que puedas asesorarte acerca de cómo podés <br class="d-md-block d-none"> 
-        | mejorar tu acceso al crédito y obtener mejor financiamiento.
-      .raya.bg-primary.mx-auto.col-1.mt-4
+  section
+    #img-background-all 
+      div.text-center.container.text-white.mt-3 
+        h2 Política de privacidad
+        p.text-white  Creamos un blog con toda la informacion necesaria para que puedas asesorarte acerca de cómo podés <br class="d-md-block d-none"> 
+          | mejorar tu acceso al crédito y obtener mejor financiamiento.
+        .raya.bg-white.mx-auto.col-md-1.col-2.mt-4
   section.container.mb-5.px-4
     h4.my-4 Lorem ipsum dolor sit amet, consectetuer 
     p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
@@ -29,4 +30,5 @@ block content
       | volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
       | consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat 
       | nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.
-  include components/_top_footer_1
+  .border-bottom.col-12
+  include components/_top_footer_3

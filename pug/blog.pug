@@ -1,21 +1,22 @@
 extends layouts/_blog_layout
 
 block content
-  section#educacion-blog 
-    .position-absolute.center-absolute
-      .title-contact.text-center.mx-auto.col-12
-        h1.text-white Educación financiera
-        p.px-md-0.px-3.text-white  Creamos un blog con toda la información necesaria para que puedas asesorarte acerca de cómo podés <br class="d-md-block d-none"> 
-          | mejorar tu acceso al crédito y obtener mejor financiamiento.
-        .raya.bg-white.col-1.mx-auto.mt-4
-      div.d-md-flex.justify-content-center.my-5.pt-5.mt-md-0 
-        img(src="img/imagen-4.png", alt="", srcset="").rounded.mr-md-5.img-top-blog
-        div.pt-md-5.mt-5.px-md-0.px-5
-          h5.text-primary Lorem ipsum dolor sit amet, sed diam nonummy.
-          p Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie <br class="d-md-block d-none"> 
-            | consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
-          button.btn.btn-primary.btn-rounded Leer nota
+  section.bg-header
     #img-background-blog
+      .center-absolute
+        .text-center.mx-auto.col-12
+          h1.text-white Educación financiera
+          p.px-md-0.px-3.text-white  Creamos un blog con toda la información necesaria para que puedas asesorarte acerca de cómo podés <br class="d-md-block d-none"> 
+            | mejorar tu acceso al crédito y obtener mejor financiamiento.
+          .raya.bg-white.col-md-1.col-2.mx-auto.mt-4
+    div#blog-desctacado.d-md-flex.justify-content-center
+          img(src="img/imagen-4.png", alt="", srcset="").rounded.mr-md-5.img-top-blog
+          div.pt-md-5.mt-5.px-md-0.px-5
+            h5.text-primary Lorem ipsum dolor sit amet, sed diam nonummy.
+            p Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie <br class="d-md-block d-none"> 
+              | consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+            button.btn.btn-primary.btn-rounded Leer nota    
+    
   section#te-contamos-blog
     //- img(src="img/fondo-te-contamos.svg", alt="", srcset="")
     .mx-auto.center-absolute.col-md-9.mt-md-5

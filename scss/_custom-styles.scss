@@ -34,7 +34,10 @@
   $img-background-notas : url(../img/background-notas.png);
 // Background header notas desktop
   $img-background-notas-m : url(../img/background-notas-m.png);
-
+// Background header all desktop
+  $img-background-all: url(../img/bg_verde-header.png);
+// Background header all movil
+  $img-background-all-m: url(../img/bg_verde-header-m.png);
 
 body{
   font-family: 'Montserrat', sans-serif !important;
@@ -115,13 +118,38 @@ p{
   padding: 23vh 0 32vh 0;
   width: 100%;
 }
+
+#img-background-thank{
+  background-image: $img-background-contacto;
+  background-size: cover;
+  height: auto;
+  padding: 1rem 0 26vh 0;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#blog-desctacado{
+  margin-top: -9rem;
+}
+
 #img-background-blog{
   background-image: $img-background-blog;
   background-size: cover;
-  height: 70vh;
+  height: auto;
   width: 100%;
-  margin-bottom: 13rem;
+  padding: 11rem 0 15rem 0;
+  /* margin-bottom: 13rem; */
 }
+#img-background-all{
+  background-image: $img-background-all;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 12rem 0 12rem 0;
+  margin-top: -29px;
+}
+
 #te-contamos-blog {
   padding-top: 3rem;
 }
@@ -236,9 +264,10 @@ a[aria-expanded=true] h6 {
   margin-top: 10rem;
 }
 #apply-header {
-  margin-top: 6rem;
+  margin-top: -6rem;
   padding: 8rem 0;
 }
+
 #terms-header{
   margin-top: 6rem;
   padding: 5rem 0;
@@ -277,6 +306,9 @@ a[aria-expanded=true] h6 {
 .bg-faqs{
   background: #eeeeee;
   box-shadow: 1px 100px 0px 100px #eeeeee;
+}
+.bg-header{
+  background: white;
 }
 
 .owl-carousel .animated {
@@ -349,9 +381,19 @@ a[aria-expanded=true] h6 {
     #img-background-blog{
       background-image: $img-background-blog-m;
       background-size: cover;
-      height: 70vh;
+      background-repeat: no-repeat;
+      height: auto;
       width: 100%;
-      margin-bottom: 24rem;
+      margin-bottom: 14rem;
+      padding: 9rem 0 8rem 0;
+    }
+    #img-background-all{
+      background-image: $img-background-all-m;
+      background-size: cover;
+      height: auto;
+      margin-bottom: 3rem;
+      padding: 10rem 0 6rem 0;
+      margin-top: 0px;
     }
     #img-background-notas{
       background-image: url(../img/background-notas-m.png);
@@ -361,7 +403,7 @@ a[aria-expanded=true] h6 {
       margin-top: 4rem;
     }
     #apply-header {
-      margin-top: 6rem;
+      margin-top: 0rem;
       padding: 3rem 0;
     }
     #img-background-contacto{
@@ -369,6 +411,13 @@ a[aria-expanded=true] h6 {
       background-size: cover;
       height: auto;
       padding: 23vh 0 32vh 0;
+      width: 100%;
+    }
+    #img-background-thank{
+      background-image: $img-background-contacto-m;
+      background-size: cover;
+      height: auto;
+      padding: 2rem 0 12rem 0;
       width: 100%;
     }
     .title-faqs {
