@@ -42,6 +42,7 @@ body{
   color: #666666;
   font-weight: normal;
 }
+
 p{
   font-family: 'Montserrat', sans-serif !important;
   color: #666666;
@@ -103,14 +104,15 @@ p{
 #img-background-phone{
   background-image: $img-background-phone;
   background-size: cover;
-  height: 130vh;
+  height: auto;
   width: 100%;
 }
 
 #img-background-contacto{
   background-image: $img-background-contacto;
   background-size: cover;
-  height: 70vh;
+  height: auto;
+  padding: 23vh 0 32vh 0;
   width: 100%;
 }
 #img-background-blog{
@@ -130,7 +132,7 @@ p{
   width: 100%;
 }
 .mt-form {
-  margin-top: -12rem;
+  margin-top: -27vh;
 }
 
 .card.border-radius {
@@ -176,6 +178,9 @@ p{
 .font10-px{
   font-size: 10px;
 }
+.font30-px{
+  font-size: 30px;
+}
 .no-style-li li {
   margin: 18px 0;
 }
@@ -217,6 +222,13 @@ a[aria-expanded=true] h6 {
 .md-accordion .card .fa-angle-down {
   float: left;
 }
+.mark, mark {
+  padding: .2em;
+  background-color: #00c98de3;
+  color: white;
+  line-height: 3rem;
+  padding: 2px;
+}
 .card-radius{
   border-radius: 15px;
 }
@@ -226,6 +238,10 @@ a[aria-expanded=true] h6 {
 #apply-header {
   margin-top: 6rem;
   padding: 8rem 0;
+}
+#terms-header{
+  margin-top: 6rem;
+  padding: 5rem 0;
 }
 .img-apply{
   width: 260px;
@@ -283,6 +299,10 @@ a[aria-expanded=true] h6 {
   align-items: center;
   display: grid;
 }
+.py_vidriera_botton{
+  padding: 20vh 0 10vh 0;
+}
+
 @media (min-width:768px){
   .px-md-6 {
     padding-left: 7rem;
@@ -292,7 +312,7 @@ a[aria-expanded=true] h6 {
 
 @media (max-width:1600px){
   #img-background-phone {
-    height: 130vh;
+    height: auto;
   }
 }
 
@@ -300,13 +320,13 @@ a[aria-expanded=true] h6 {
 /* Col-xl */
 @media (max-width:1200px){
   #img-background-phone {
-    height: 140vh;
+    height: auto;
   }
 }
 //  Col-lg
 @media (max-width:992px){
   #img-background-phone {
-    height: 160vh;
+    height: auto;
   }
 }
 /* Col-md */
@@ -347,7 +367,8 @@ a[aria-expanded=true] h6 {
     #img-background-contacto{
       background-image: $img-background-contacto-m;
       background-size: cover;
-      height: 70vh;
+      height: auto;
+      padding: 23vh 0 32vh 0;
       width: 100%;
     }
     .title-faqs {
@@ -374,7 +395,7 @@ a[aria-expanded=true] h6 {
     #img-background-phone{
       background-image: $img-background-phone-m;
       background-size: cover;
-      height: 65rem;
+      height: auto;
       width: 100%;
     }
     #fond-te-contamos{
@@ -444,8 +465,12 @@ a[aria-expanded=true] h6 {
 }
 /* Col-sm */
 @media (max-width:576px){
+  #terms-header {
+    margin-top: 6rem;
+    padding: 3rem 0;
+  }
   #img-background-phone {
-    height: 130vh;
+    height: auto;
   }
   .title-contact {
       margin-top: 7rem;
@@ -478,7 +503,7 @@ a[aria-expanded=true] h6 {
 }
 @media (max-width:390px){
     #img-background-phone {
-      height: 110vh;
+      height: auto;
   }
   #fond-te-contamos {
       height: 120rem;

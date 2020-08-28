@@ -1,12 +1,13 @@
 extends layouts/_index_layout
 
 block content
-  section 
-    .position-absolute.center-absolute
-      .title-contact.text-center.mx-auto.col-12
-        h1.text-white Contacto
-        p.px-md-0.px-3.text-white  Completa los datos a continuación para que nos pongamos en <br class="d-md-block d-none"> contacto a la brevedad.
-    #img-background-contacto
+  section
+    #img-background-contacto 
+      .center-absolute
+        .text-center.mx-auto.col-12
+          h1.text-white Contacto
+          p.px-md-0.px-3.text-white  Completa los datos a continuación para que nos pongamos en <br class="d-md-block d-none"> contacto a la brevedad.
+    
   section#form.mb-5
     form(method="post").card.col-md-8.col-11.mx-auto.p-md-5.card-radius.mt-form
       .d-md-flex.d-block  
@@ -27,7 +28,7 @@ block content
         .md-form.form-sm.col-md-6.col-12
           textarea(id="form7"  rows="3").md-textarea.form-control
           label(for="form7").ml-3 Mensaje
-      button.btn.btn-primary.btn-rounded.col-md-4.mt-5 Enviar propuesta
+      button.btn.btn-primary.btn-rounded.col-md-4.mt-5 Enviar
       small.ml-3.mt-md-3.mb-md-0.mb-3 *Campo obligatorio
       
   include components/_top_footer_1
