@@ -19712,7 +19712,7 @@ p {
   background-size: cover;
   height: 70vh;
   width: 100%;
-  box-shadow: inset 0 0 122px 13px #00000038;
+  box-shadow: inset 0 0 20000px 2000px #333333a8;
 }
 
 .mt-form {
