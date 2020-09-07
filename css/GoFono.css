@@ -19705,6 +19705,7 @@ p {
 
 #te-contamos-blog {
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .owl-nav {
@@ -19753,10 +19754,11 @@ p {
 
 #fond-te-contamos {
   background-image: url(../img/fondo-te-contamos.svg);
-  height: 67rem;
+  height: auto;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5rem;
 }
 
 #footer-over {
@@ -19796,9 +19798,10 @@ p {
 
 #fondo-top-footer {
   background-image: url(../img/background-top-footer.png);
-  height: 29rem;
+  height: auto;
   width: 100%;
   background-size: cover;
+  padding: 0 0 63vh 0;
 }
 
 .text-left-top-footer {
@@ -19965,6 +19968,11 @@ label.btn input[type=radio] + label:before {
 }
 /* Col-md */
 @media (max-width: 768px) {
+  #te-contamos-blog {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
   #educacion-blog {
     background: white;
     box-shadow: 0px 20px 0 362px #ffffff;
@@ -20006,7 +20014,7 @@ label.btn input[type=radio] + label:before {
   #img-background-notas {
     background-image: url(../img/background-notas-m.png);
     background-size: cover;
-    height: 37vh;
+    height: auto;
     width: 100%;
     margin-top: 6rem;
   }
@@ -20061,9 +20069,9 @@ mark {
 
   #fondo-top-footer {
     background-image: url(../img/background-top-footer-m.png);
-    height: 23rem;
     width: 100%;
     background-size: cover;
+    padding: 0 0 89% 0;
   }
 
   .text-left-top-footer {
@@ -20080,7 +20088,7 @@ mark {
 
   #fond-te-contamos {
     background-image: url(../img/fondo-te-contamos-m.svg);
-    height: 115rem;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20189,10 +20197,6 @@ mark {
     display: none;
   }
 
-  #fond-te-contamos {
-    height: 108rem;
-  }
-
   .font20-px {
     font-size: 1rem;
   }
@@ -20205,10 +20209,6 @@ mark {
 @media (max-width: 390px) {
   #img-background-phone {
     height: auto;
-  }
-
-  #fond-te-contamos {
-    height: 120rem;
   }
 
   .font-title {
@@ -20226,10 +20226,6 @@ mark {
   .btn-wp {
     height: 3rem;
     margin-top: -1rem;
-  }
-
-  #fondo-top-footer {
-    height: 20rem;
   }
 
   .title-h2 {
@@ -20294,9 +20290,5 @@ mark {
 
   .title-h2 {
     font-size: 1.25rem;
-  }
-
-  #fond-te-contamos {
-    height: 114rem;
   }
 }
