@@ -2,6 +2,8 @@ extends layouts/_index_layout
 block style_up
   link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css")
   link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css")
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css")
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css")
 block content
   section#section-home
     .position-absolute.title-content
@@ -50,7 +52,17 @@ block content
         h2.text-primary.animar-download Vidriera GoFono
         p.animar-download ¿Todavía no sabés que teléfono querés? <br>
           | Entrá a GoFono y descubrí la oferta completa que tenemos para vos.
+      #navhere
       .center-absolute.phone-carrusel.owl-carousel.mt-5.pt-3.px-md-6
+        .px-md-5.px-5
+          a(href="#").card.border-radius 
+            img(src="img/telefono-a10.jpg", alt="").img-phone-slider.mt-5
+            p.text-center.font-weight-500.mt-3 Samsung Galaxy <br>
+              | A10 - 32gb
+            .border-bottom.col-10.mx-auto.mb-3
+            .text-center.text-primary.mb-3
+              small 12 cuotas de
+              h2 $ 1.890
         .px-md-5.px-5
           a(href="#").card.border-radius 
             img(src="img/telefono-a10.jpg", alt="").img-phone-slider.mt-5
@@ -157,15 +169,20 @@ block script
             autoplay:true,
             autoplayTimeout:2500,
             dots:true,
+            loop:true,
+            nav: true,
+            navText : ["<img src='img/left-chevron.png' style='width: 5rem;left: 2rem;right: auto;position: absolute;'>","<img src='img/right-chevron.png' style='width: 5rem;left: auto;right: 2rem;position: absolute;'>"],
             responsive:{
                 0:{
                   dots:true,
                   loop:true,
-                  items:1
+                  items:1,
+                  nav: false,
                 },
                 700:{
                   loop:true,
                   items:3,
+                  nav: true,
                 }
             }
       
@@ -174,6 +191,7 @@ block script
             autoplay:true,
             autoplayTimeout:2500,
             dots:true,
+            loop:true,
             responsive:{
                 0:{
                   dots:true,

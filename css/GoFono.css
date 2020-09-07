@@ -19707,6 +19707,15 @@ p {
   padding-top: 3rem;
 }
 
+.owl-nav {
+  position: absolute;
+  margin-top: -20rem;
+  justify-content: center;
+  width: 100%;
+  left: 0;
+  padding: 0px 3rem;
+}
+
 #img-background-notas {
   background-image: url(../img/background-notas.png);
   background-size: cover;
